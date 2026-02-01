@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | Punniyamoorthy B - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Charter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .all-projects-header {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            text-align: center;
+        }
+        
+        .all-projects-header h1 {
+            font-size: 3rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        .all-projects-header p {
+            font-size: 1.2rem;
+            color: var(--gray);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .all-projects-container {
+            padding: 60px 0;
+        }
+        
+        .back-home {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        
+        .back-home:hover {
+            color: var(--primary-dark);
+            gap: 12px;
+        }
+        
+        .project-section {
+            margin-bottom: 60px;
+        }
+        
+        .project-section h2 {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+            display: inline-block;
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        @media (max-width: 768px) {
+            .all-projects-header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Punniya<span>moorthy</span></div>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#experience">Experience</a>
+                    <a href="#all-projects">All Projects</a>
+                    <a href="index.html#personal-projects">Personal Projects</a>
+                    <a href="index.html#achievements">Achievements</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- All Projects Header -->
+    <section class="all-projects-header">
+        <div class="container">
+            <h1>All Projects</h1>
+            <p>Explore my complete portfolio of 25+ projects across various domains including ERP systems, mobile applications, web platforms, and enterprise solutions.</p>
+        </div>
+    </section>
+
+    <!-- All Projects Section -->
+    <section class="all-projects-container" id="all-projects">
+        <div class="container">
+            <!-- Professional Projects -->
+            <div class="project-section">
+                <h2>Professional Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Jewellery ERP (Suntech Business Solution)</h3>
+                            <p>Developed an efficient ERP system for Suntech Business Solution, a provider of jewellery ERP applications. The system enabled seamless tracking of sales, purchases, sales order management, and other key functionalities for jewellery businesses.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">ERP System</div>
+                                <div class="tech-tag">Inventory Management</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Jewellery Customer Feedback (Suntech Business Solution)</h3>
+                            <p>Created a secure customer feedback platform for Suntech Business Solution's clients, primarily jewellery shop owners, enabling them to gather valuable feedback from their customers to improve their services and operations.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Feedback System</div>
+                                <div class="tech-tag">Web Application</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Goat Farm Management System</h3>
+                            <p>Developed a comprehensive system for managing various aspects of a goat farm, including goat management, feed purchase, medicine purchase, feed schedule, medicine schedule, buyers management, supplier management, staff management, attendance tracking, and expense management.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Management System</div>
+                                <div class="tech-tag">Agriculture Tech</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Trichify Hyperlocal App</h3>
+                            <p>A hyperlocal app to promote business, entertainment, podcasts, events, activities, and classifieds in and around Trichy.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Flutter</div>
+                                <div class="tech-tag">Mobile App</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.workahr.trichify&pcampaignid=web_share" class="project-link" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Workahr Office ERP</h3>
+                            <p>An application to manage project tasks with the team. Only the company employee can log in to the application to create and view tasks for projects. The project head will create the details and share with the employees.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">ERP</div>
+                                <div class="tech-tag">Task Management</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.workahr.Workahroffize&pcampaignid=web_share" class="project-link" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Hotel Booking App</h3>
+                            <p>Hotel booking application allows users to register and log in, browse and book hotels, make online payments, track booking statuses, and share hotel images with others.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Flutter</div>
+                                <div class="tech-tag">Booking System</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.ecrcheckin.hotelManagementApp" class="project-link" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Point Of Sales Reporting App</h3>
+                            <p>Point of sales reporting app with graphical representations and OCR technology to extract data from ID cards.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Mobile App</div>
+                                <div class="tech-tag">OCR</div>
+                                <div class="tech-tag">Data Visualization</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://apps.apple.com/ae/app/snapp-viewreports/id6444252756" class="project-link" target="_blank"><i class="fab fa-apple"></i> Apple Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Chat Application</h3>
+                            <p>Implemented a versatile chat app enabling admin-client communication through text, voice messages, and images.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Real-time Chat</div>
+                                <div class="tech-tag">Mobile App</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Inventory ERP Management</h3>
+                            <p>Developed an efficient Inventory ERP Management system with a specific focus on purchase and sales modules.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">ERP</div>
+                                <div class="tech-tag">Inventory Management</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 10 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Jewellery ERP Flutter</h3>
+                            <p>Developed a POS and estimation module with PDF generation and signature pad support for jewellery businesses.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Flutter</div>
+                                <div class="tech-tag">POS System</div>
+                                <div class="tech-tag">PDF Generation</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 11 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>KEFA Football Association App</h3>
+                            <p>KEFA is known as a non-profit football association for the expat Indian community in the UAE. We encourage and enable players to benefit from participating in football in a safe and structured environment.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Community App</div>
+                                <div class="tech-tag">Sports</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.workahr.kefa" class="project-link" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                                <a href="https://apps.apple.com/us/app/kefa/id6463697737" class="project-link" target="_blank"><i class="fab fa-apple"></i> Apple Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 12 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Jilion E-commerce App</h3>
+                            <p>To provide everyone with the opportunity to purchase affordable, high-quality products from all market areas, regardless of their budget.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">E-commerce</div>
+                                <div class="tech-tag">Mobile App</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.jilion.app" class="project-link" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 13 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>CRM App Flutter</h3>
+                            <p>This app allows businesses of all sizes to manage customer relationships, qualify and nurture leads, and convert leads into customers.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">CRM</div>
+                                <div class="tech-tag">Business Management</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 14 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>KIOSK Machine App</h3>
+                            <p>KIOSK machine app for depositing amount to office account(wallet) using cash or card payment.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">KIOSK</div>
+                                <div class="tech-tag">Payment System</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 15 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Medical Billing Application</h3>
+                            <p>Medical Billing and Store Management Project with three types of users (Super Admin, Admin, and Store Staff).</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Healthcare</div>
+                                <div class="tech-tag">Billing System</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://hyge.medibi.in" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 16 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Fleet Management System</h3>
+                            <p>The fleet management system monitors a wide range of data, including those related to vehicles, vendors, employees, locations, maintenance, repairs, and parts for vehicles.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Fleet Management</div>
+                                <div class="tech-tag">Logistics</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 17 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>PDF Maker App</h3>
+                            <p>Create professional-looking PDF files from images. With our app, you can convert any image format to PDF, combine multiple images into a single PDF file.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">PDF Generation</div>
+                                <div class="tech-tag">Utility App</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 18 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>AUpay – Gold Chit Scheme Application (MERN Stack)</h3>
+                            <p>Managing the full project lifecycle including requirement analysis, team coordination, sprint planning, and delivery supervision. Developed key modules such as user onboarding, chit bidding workflows, auction processing logic, secure payment integration, and admin-side reporting dashboards.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">MERN Stack</div>
+                                <div class="tech-tag">Finance</div>
+                                <div class="tech-tag">Full Stack</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 19 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Pawn Broking Management System (MERN Stack)</h3>
+                            <p>Architected the foundational codebase to accelerate development. Integrated advanced functionalities like pawn ticket generation, dynamic loan tracking, interest computation, renewal management, and KYC verification.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">MERN Stack</div>
+                                <div class="tech-tag">Finance</div>
+                                <div class="tech-tag">Loan Management</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 20 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>IVF Management Platform (MERN Stack)</h3>
+                            <p>Built comprehensive modules for fertility diagnostics, including semen analysis, IUI, DFI test management, and diagnostic result generation. Designed and implemented user-friendly interfaces for data entry, result visualization, diagnosis summaries, and auto-generated PDF reports.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">MERN Stack</div>
+                                <div class="tech-tag">Healthcare</div>
+                                <div class="tech-tag">Medical Platform</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 21 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>NERP – Jewellery ERP System (MERN Stack)</h3>
+                            <p>Led the IT team in system planning and architecture design; developed database schemas and reusable frontend/backend components for inventory management, billing, product catalogs, and customer records. Implemented refinery and accounting modules, master data management, and integrated live metal rate updates to enhance operational efficiency.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">MERN Stack</div>
+                                <div class="tech-tag">ERP</div>
+                                <div class="tech-tag">Jewellery Business</div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://nyttro.com/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 22 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Ausale – Previous Version (Flutter, Django, MySQL)</h3>
+                            <p>Previously contributed to Ausale by developing a stock refill and inventory tracking module using Flutter for frontend, Django for backend APIs, and MySQL for data storage. Focused on real-time stock updates, threshold alerts, and admin-level refill operations.</p>
+                            <div class="tech-tags">
+                                <div class="tech-tag">Flutter</div>
+                                <div class="tech-tag">Django</div>
+                                <div class="tech-tag">Inventory Management</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="index.html" class="back-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Punniya<span>moorthy</span> B</div>
+                    <p>Senior Full Stack Developer & Technical Lead</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#experience">Experience</a>
+                    <a href="#all-projects">Projects</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919360374831">+91 93603 74831</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:pgmoorthy1411@gmail.com">pgmoorthy1411@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tamil Nadu, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/punniyamoorthy-b-11492a18b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/pgmoorthy1411" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="tel:+919360374831" title="Call"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:pgmoorthy1411@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Punniyamoorthy B. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
